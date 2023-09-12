@@ -1,13 +1,13 @@
 # Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
 
-## AIM:
+# AIM:
 To write a program to predict the marks scored by a student using the simple linear regression model.
 
-## Equipments Required:
+# Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
+# Algorithm
 1. Import the standard Libraries.
 2. Set variables for assigning dataset values.
 3. Import linear regression from sklearn.
@@ -15,7 +15,7 @@ To write a program to predict the marks scored by a student using the simple lin
 5. Predict the regression for marks by using the representation of the graph.
 6. Compare the graphs and hence we obtained the linear regression for the given datas.
 
-## Program:
+# Program:
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
@@ -74,31 +74,34 @@ print("RMSE = ",rmse)
 
 ```
 
-## Output:
+# Output:
+
+## df.head()
 ![image](https://github.com/Priya-Loganathan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/121166075/5878ff4a-0007-491d-bbf6-e67a56459c26)
 
+## df.tail()
 ![image](https://github.com/Priya-Loganathan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/121166075/7c57d20b-599e-48e0-948b-9f5dc38f6683)
 
-### Array values of X
+## Array values of X
 ![image](https://github.com/Priya-Loganathan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/121166075/9b7d8788-0c9e-4dec-8bf4-272abef7fc10)
 
-### Array values of Y
+## Array values of Y
 ![image](https://github.com/Priya-Loganathan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/121166075/8a519420-4b47-4bd4-abf5-2a6abd5df0cd)
 
-### Values of Y prediction
+## Values of Y prediction
 ![image](https://github.com/Priya-Loganathan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/121166075/d03caa1a-5751-4e51-9d63-b5b098a3f3ed)
 
-### Values of Y test
+## Values of Y test
 ![image](https://github.com/Priya-Loganathan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/121166075/50ed55ee-5800-4d14-9c48-f632dc6837ed)
 
-### Training set graph
+## Training set graph
 ![image](https://github.com/Priya-Loganathan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/121166075/8b6e5ebb-2aa4-4707-be66-c2ff3bdd6120)
 
-### Testing set graph
+## Testing set graph
 ![image](https://github.com/Priya-Loganathan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/121166075/870e9b84-7c65-43e5-850d-5e54772c205e)
 
-### Value of MSE,MAE & RMSE
+## Value of MSE,MAE & RMSE
 ![image](https://github.com/Priya-Loganathan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/121166075/97f8baf0-e0aa-4234-a520-8108c359b7cb)
 
-## Result:
+# Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
